@@ -1,0 +1,53 @@
+canvas{
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    width: auto;
+    height: auto;
+    position: absolute;
+    cursor: crosshair;
+}
+
+.toolbar-wrapper {
+    z-index: 1;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 3%;
+    text-align: center;
+    width: 60px;
+}
+
+.toolbar-main-menu{
+    background-color: #f0f0f0;
+    border-radius: 10%;
+    border: 1px black;
+    padding: 3px;
+    margin: 0;
+    display: block;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);
+}
+
+ul{
+    list-style-type: none;
+    margin: 2px;
+    padding: 0;
+}
+
+li{
+    padding: 5px;
+    margin:1px;
+    border-radius: 10%;
+}
+
+.toolName:hover{
+    border-radius: 15%;
+     /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19); */
+    background-color: #ddd;
+}
+
+*, ::after,::before{
+    box-sizing: inherit;
+}
+
+
